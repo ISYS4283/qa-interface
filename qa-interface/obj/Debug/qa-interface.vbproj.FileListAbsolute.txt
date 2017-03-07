@@ -10,3 +10,4 @@ S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.vbproj.Gene
 S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.exe
 S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.xml
 S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.pdb
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa_interface.EditQuestion.resources

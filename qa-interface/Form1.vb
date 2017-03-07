@@ -35,4 +35,12 @@ Public Class Questions
     Private Sub CreateQuestionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreateQuestionToolStripMenuItem.Click
         CreateQuestion.Show()
     End Sub
+
+    Private Sub EditToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditToolStripMenuItem.Click
+        Dim question_id As String = dgvQuestions.Item("id", dgvQuestions.CurrentRow.Index).Value.ToString()
+        Dim question As String = dgvQuestions.Item("question", dgvQuestions.CurrentRow.Index).Value.ToString()
+
+        Dim editQuestion As New EditQuestion(question_id, question)
+        Call editQuestion.Show()
+    End Sub
 End Class

@@ -26,6 +26,7 @@ Partial Class Questions
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.LoadQuestionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreateQuestionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.dgvQuestions, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -40,12 +41,13 @@ Partial Class Questions
         Me.dgvQuestions.Location = New System.Drawing.Point(0, 24)
         Me.dgvQuestions.Name = "dgvQuestions"
         Me.dgvQuestions.ReadOnly = True
+        Me.dgvQuestions.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvQuestions.Size = New System.Drawing.Size(992, 723)
         Me.dgvQuestions.TabIndex = 0
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoadQuestionsToolStripMenuItem, Me.CreateQuestionToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoadQuestionsToolStripMenuItem, Me.CreateQuestionToolStripMenuItem, Me.EditToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(992, 24)
@@ -55,14 +57,20 @@ Partial Class Questions
         'LoadQuestionsToolStripMenuItem
         '
         Me.LoadQuestionsToolStripMenuItem.Name = "LoadQuestionsToolStripMenuItem"
-        Me.LoadQuestionsToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
-        Me.LoadQuestionsToolStripMenuItem.Text = "Load Questions"
+        Me.LoadQuestionsToolStripMenuItem.Size = New System.Drawing.Size(45, 20)
+        Me.LoadQuestionsToolStripMenuItem.Text = "Load"
         '
         'CreateQuestionToolStripMenuItem
         '
         Me.CreateQuestionToolStripMenuItem.Name = "CreateQuestionToolStripMenuItem"
-        Me.CreateQuestionToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
-        Me.CreateQuestionToolStripMenuItem.Text = "Create Question"
+        Me.CreateQuestionToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.CreateQuestionToolStripMenuItem.Text = "Create"
+        '
+        'EditToolStripMenuItem
+        '
+        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem.Text = "Edit"
         '
         'Questions
         '
@@ -86,4 +94,5 @@ Partial Class Questions
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents LoadQuestionsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CreateQuestionToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EditToolStripMenuItem As ToolStripMenuItem
 End Class
