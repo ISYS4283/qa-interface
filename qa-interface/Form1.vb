@@ -31,4 +31,8 @@ Public Class Questions
         End Try
 
     End Sub
+
+    Private Sub CreateQuestionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreateQuestionToolStripMenuItem.Click
+        CreateQuestion.Show()
+    End Sub
 End Class

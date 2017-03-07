@@ -1,0 +1,12 @@
+S:\jpucket\isys4283\qa-interface\qa-interface\bin\Debug\qa-interface.exe.config
+S:\jpucket\isys4283\qa-interface\qa-interface\bin\Debug\qa-interface.exe
+S:\jpucket\isys4283\qa-interface\qa-interface\bin\Debug\qa-interface.pdb
+S:\jpucket\isys4283\qa-interface\qa-interface\bin\Debug\qa-interface.xml
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.vbprojResolveAssemblyReference.cache
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa_interface.CreateQuestion.resources
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa_interface.Questions.resources
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa_interface.Resources.resources
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.vbproj.GenerateResource.Cache
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.exe
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.xml
+S:\jpucket\isys4283\qa-interface\qa-interface\obj\Debug\qa-interface.pdb
